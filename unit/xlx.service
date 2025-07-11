@@ -1,0 +1,13 @@
+[Unit]
+Description=XLX launcher scripts
+Wants=xlx.timer
+
+[Service]
+Type=oneshot
+User=root
+ExecStart=xlx-update
+ExecStart=xlx-getdmrid
+ExecStart=xlx-gethost
+
+[Install]
+WantedBy=multi-user.target

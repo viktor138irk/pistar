@@ -1,0 +1,10 @@
+[Unit]
+Description=XLX launcher scripts
+Requires=xlx.service
+
+[Timer]
+Unit=xlx.service
+OnCalendar=*-*-* *:00/10:00
+
+[Install]
+WantedBy=timers.target
