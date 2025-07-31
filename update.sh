@@ -4,11 +4,11 @@ mount -o remount,rw /
 
 XLXFOLDER=/xlx
 
-wget -q -N -P ${XLXFOLDER}/scripts/ https://xlx.dmrykt.ru/pistar/xlx-cron.sh
-wget -q -N -P ${XLXFOLDER}/scripts/ https://xlx.dmrykt.ru/pistar/xlx-del.sh
-wget -q -N -P ${XLXFOLDER}/scripts/ https://xlx.dmrykt.ru/pistar/xlx-getdmrid.sh
-wget -q -N -P ${XLXFOLDER}/scripts/ https://xlx.dmrykt.ru/pistar/xlx-gethost.sh
-wget -q -N -P ${XLXFOLDER}/scripts/ https://xlx.dmrykt.ru/pistar/xlx-update.sh
+wget -q -N -P ${XLXFOLDER}/scripts/ https://xlx.dmrykt.ru/pistar/cron.sh
+wget -q -N -P ${XLXFOLDER}/scripts/ https://xlx.dmrykt.ru/pistar/del.sh
+wget -q -N -P ${XLXFOLDER}/scripts/ https://xlx.dmrykt.ru/pistar/getdmrid.sh
+wget -q -N -P ${XLXFOLDER}/scripts/ https://xlx.dmrykt.ru/pistar/gethost.sh
+wget -q -N -P ${XLXFOLDER}/scripts/ https://xlx.dmrykt.ru/pistar/update.sh
 
 chmod +x ${XLXFOLDER}/scripts/*.sh
 
